@@ -1,0 +1,31 @@
+/* Boton busqueda */
+.btn-outline-success{
+    --bs-btn-color: #77a807;
+    --bs-btn-border-color: #77a807;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #77a807;
+    --bs-btn-hover-border-color: #77a807;
+    --bs-btn-focus-shadow-rgb: 25,135,84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #77a807;
+    --bs-btn-active-border-color: #77a807;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #77a807;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #77a807;
+    --bs-gradient: none;
+}
+
+.form-control:focus{
+    border-color: #77a807;
+    box-shadow: 0 0 0 0.15rem #77a807;
+}
+
+/* banner frontal */
+.frontal-banner{
+    transform: rotateX(0.5turn);
+    width: 100%;
+    height: 45vh;
+    filter: grayscale(1);
+    box-sizing: border-box;
+}
