@@ -26,6 +26,78 @@
     transform: rotateX(0.5turn);
     width: 100%;
     height: 45vh;
-    filter: grayscale(1);
+    filter: grayscale(0.9);
     box-sizing: border-box;
+}
+
+/* Intro frontal */
+.front-intro{
+    margin: 0;
+    padding: 5%;
+    background-color: #0c0d0f;
+    color: #a6aaae;
+    text-align: justify;
+}
+
+.main-intro h1{
+    color: #fcfdfd;
+}
+
+.main-intro h1, h2{
+    text-align: center;
+}
+
+.main-intro h2{
+    font-size: 1.3em;
+    margin: 4% auto 7% auto;
+}
+
+.main-intro p{
+    margin-top: 3%;
+}
+
+.main-intro p strong{
+    color: #fcfdfd;
+}
+
+/* Seccion aprende mas */
+.learn-more{
+    background: linear-gradient(#0c0d0f,#08090a)
+}
+
+.learn-more h3{
+    color: #fcfdfd;
+    text-align: center;
+}
+
+.video-frame-intro{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin: 3% auto 0% auto;
+    padding: 6% 10%;
+}
+
+
+/* footer */
+footer {
+    background-color: rgb(1, 1, 4);
+    color: #948d86;
+    padding: 10px;
+}
+
+footer span{
+    display: flex;
+    line-height: 2.5em;
+    font-size: 0.8em;
+    justify-content: center;
+    padding-bottom: 30px;
+
+}
+
+footer p{
+    font-size: small;
+    margin: 0%;
+    text-align: center;
+
 }
