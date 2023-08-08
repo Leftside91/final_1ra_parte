@@ -1,5 +1,7 @@
-/* Estilos de la historia animal */
-#animal-story{
+/* Estilos de las historias */
+#animal-story, 
+#plants-story,
+#myth-story{
     margin: 0;
     padding: 6%;
     background: linear-gradient(#1d2024, #01060f);
@@ -7,20 +9,20 @@
     text-align: justify;
 }
 
-#animal-story h1{
+#animal-story h1,
+#plants-story h1,
+#myth-story h1{
     text-align: center;
     padding-bottom: 3%;
     color: #fcfdfd;
 }
 
-#animal-story span{
+#animal-story span,
+#plants-story span,
+#myth-story span{
     display: flex;
     justify-content: right;
     padding-top: 5%;
-}
-
-#animal-story strong{
-    color: #fcfdfd;
 }
 
 /* Estilo del hr */
