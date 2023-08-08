@@ -73,6 +73,41 @@ hr{
     color: #fcfdfd;
 }
 
+/* Estilos de la seccion coleccion */
+#collection{
+    background-color: #08090a;
+    padding: 2%;
+}
+
+#collection h4{
+    color: #fcfdfd;
+    text-align: center;
+    margin: 1% 3%;
+    font-size: 1.8em;
+}
+
+/* Estilo del carrusel */
+.carousel{
+    margin: 0% 8%;
+    padding: 3%;
+}
+
+/* Estilos de la sección recursos */
+#resources{
+    background-color: #08090a;
+    padding:5%;
+}
+
+#resources h4{
+    color: #fcfdfd;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.card-body h5{
+    color: #77a807;
+}
+
 /* Media query para las targetas */
 @media (min-width:769px) and (max-width:992px){
     .gallery{
