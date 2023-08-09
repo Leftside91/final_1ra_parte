@@ -81,28 +81,35 @@
                                 <li><a class="dropdown-item" href="./layers/myth.html#resources">Recursos</a></li>
                             </ul>
                         <li class="nav-item">
-                            <span class="nav-link active" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Contacto</span>
-                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <span class="nav-link active" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                data-bs-whatever="@getbootstrap">Contacto</span>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="Nueva sugerencia"
+                                aria-describedby="Envianos tu sugerencia de criatura colocando su nombre y sus principales caraterísticas"
+                                aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             <h1 class="modal-title fs-5" id="exampleModalLabel">Nueva sugerencia</h1>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
                                             <form>
                                                 <div class="mb-3">
-                                                    <label for="recipient-name" class="col-form-label">Nombre de la criatura:</label>
+                                                    <label for="recipient-name" class="col-form-label">Nombre de la
+                                                        criatura:</label>
                                                     <input type="text" class="form-control" id="recipient-name">
                                                 </div>
                                                 <div class="mb-3">
-                                                    <label for="message-text" class="col-form-label">Principales características</label>
+                                                    <label for="message-text" class="col-form-label">Principales
+                                                        características</label>
                                                     <textarea class="form-control" id="message-text"></textarea>
                                                 </div>
                                             </form>
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Cerrar</button>
                                             <button type="button" class="btn btn-primary">Enviar</button>
                                         </div>
                                     </div>
@@ -124,11 +131,25 @@
             <article class="main-intro">
                 <h1>¡Bienvenido a Mindforming life!</h1>
                 <h2>Donde la vida encuentra su imagen</h2>
-                <p><strong>Explora</strong> las maravillas del mundo natural y sumérgete en los reinos de la imaginación mientras te traemos una extraordinaria fusión de animales, plantas y ciencia ficción. Nuestra página web es una puerta de entrada a un universo cautivador donde podrás descubrir la diversidad de la vida en todas sus formas.</p>
-                <p><strong>Sumérgete</strong> en la encantadora belleza del reino animal, desde los majestuosos leones que vagan por la sabana africana hasta los elegantes delfines que bailan entre las olas del océano. Maravíllate ante los intrincados diseños de la vida vegetal, desde los vibrantes pétalos de flores exóticas hasta las imponentes copas de los bosques antiguos.</p>
-                <p>Pero no nos detenemos ahí: lo invitamos a adentrarse en el reino de la ciencia ficción, donde la imaginación no tiene límites. Encuentra criaturas fantásticas que desafían las leyes de la naturaleza, explora paisajes alienígenas de galaxias lejanas y emprende emocionantes aventuras que te transportarán a reinos inimaginables.</p>
-                <p>A través de tarjetas visualmente cautivadoras, mostramos una colección de especímenes notables del mundo natural y más allá. Cada tarjeta es una ventana a la asombrosa diversidad e imaginación que nos rodea.</p>
-                <p><strong>Únase a nosotros</strong> en este extraordinario viaje de descubrimiento, donde la realidad se encuentra con los reinos de lo fantástico. Descubre los secretos de la vida, aprecia la belleza de la naturaleza y deja volar tu imaginación. ¡Bienvenido a nuestra página web, donde cada clic revela una nueva maravilla!</p>
+                <p><strong>Explora</strong> las maravillas del mundo natural y sumérgete en los reinos de la imaginación
+                    mientras te traemos una extraordinaria fusión de animales, plantas y ciencia ficción. Nuestra página
+                    web es una puerta de entrada a un universo cautivador donde podrás descubrir la diversidad de la
+                    vida en todas sus formas.</p>
+                <p><strong>Sumérgete</strong> en la encantadora belleza del reino animal, desde los majestuosos leones
+                    que vagan por la sabana africana hasta los elegantes delfines que bailan entre las olas del océano.
+                    Maravíllate ante los intrincados diseños de la vida vegetal, desde los vibrantes pétalos de flores
+                    exóticas hasta las imponentes copas de los bosques antiguos.</p>
+                <p>Pero no nos detenemos ahí: lo invitamos a adentrarse en el reino de la ciencia ficción, donde la
+                    imaginación no tiene límites. Encuentra criaturas fantásticas que desafían las leyes de la
+                    naturaleza, explora paisajes alienígenas de galaxias lejanas y emprende emocionantes aventuras que
+                    te transportarán a reinos inimaginables.</p>
+                <p>A través de tarjetas visualmente cautivadoras, mostramos una colección de especímenes notables del
+                    mundo natural y más allá. Cada tarjeta es una ventana a la asombrosa diversidad e imaginación que
+                    nos rodea.</p>
+                <p><strong>Únase a nosotros</strong> en este extraordinario viaje de descubrimiento, donde la realidad
+                    se encuentra con los reinos de lo fantástico. Descubre los secretos de la vida, aprecia la belleza
+                    de la naturaleza y deja volar tu imaginación. ¡Bienvenido a nuestra página web, donde cada clic
+                    revela una nueva maravilla!</p>
             </article>
         </div>
         <section class="learn-more">
@@ -143,7 +164,39 @@
     </main>
     <footer>
         <div class="paperclips">
-            <span>Política de Privacidad</span> <span>Condiciones de Uso</span>
+            <span data-bs-toggle="modal" data-bs-target="#politica">Política de Privacidad</span><span data-bs-toggle="modal" data-bs-target="#condiciones">Condiciones de Uso</span>
+    <!-- modal de politica-->
+    <div class="modal fade" id="politica" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">No tenemos privacidad</h1>
+                </div>
+                <div class="modal-body imagen-modal">
+                    <img src="./images/politicas.png" alt="Aun no consideramos políticas">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal de condiciones -->
+    <div class="modal fade" id="condiciones" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">No tenemos condiciones</h1>
+                </div>
+                <div class="modal-body imagen-modal">
+                    <img src="./images/condiciones.png" alt="Aun no consideramos condiciones">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
         </div>
         <p>Mindforming life</p>
         <p>Todos los derechos reservados. Digitalers © 2023 ML</p>

@@ -110,12 +110,25 @@ footer span{
     font-size: 0.8em;
     justify-content: center;
     padding-bottom: 30px;
+}
 
+footer span:hover{
+    cursor: pointer;
 }
 
 footer p{
     font-size: small;
     margin: 0%;
     text-align: center;
+}
 
+/* Modales del footer */
+.imagen-modal{
+    display: flex;
+    justify-content: center;
+}
+
+#politica,
+#condiciones{
+    --bs-modal-bg: #212529;
 }
