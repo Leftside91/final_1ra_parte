@@ -100,10 +100,13 @@ footer {
     color: #948d86;
     padding: 10px;
 }
-
-footer span{
+.paperclips{
     display: flex;
-    line-height: 2.5em;
+    justify-content: space-between;
+    padding: 0 2%;
+}
+footer span{
+    line-height: 1.5em;
     font-size: 0.8em;
     justify-content: center;
     padding-bottom: 30px;
