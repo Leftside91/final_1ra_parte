@@ -89,9 +89,12 @@ hr{
 }
 
 /* Estilo del carrusel */
-.carousel{
-    margin: 0% 8%;
-    padding: 3%;
+.carousel-item{
+    height: 27rem;
+    background-color: #01060f;
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
 }
 
 /* Estilos de la sección recursos */

@@ -136,36 +136,32 @@
         </section>
         <section id="collection">
             <h4>Maravíllate con esta colección</h4>
-            <div id="carouselExampleIndicators" class="carousel slide">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <div class="container">
+                <div class="card-body">
+                    <div id="carousel-pics" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators"> <!-- indicadores de las diapos -->
+                            <button type="button" data-bs-target="#carousel-pics" data-bs-slide-to="0" class="active" ></button>
+                            <button type="button" data-bs-target="#carousel-pics" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#carousel-pics" data-bs-slide-to="2"></button>
+                            <button type="button" data-bs-target="#carousel-pics" data-bs-slide-to="3"></button>
+                        </div>
+                        <div class="carousel-inner"> <!-- diapos -->
+                            <div class="carousel-item active" style="background-image: url(../images/plangallery1.jpg);" alt="flores blancas con el centro amarillo de un jasmín">
+                            </div>
+                            <div class="carousel-item" style="background-image: url(../images/plangallery2.jpg);" alt="venus atrapamoscas en vista cercana"></div>
+                            <div class="carousel-item" style="background-image: url(../images/plangallery3.jpg);" alt="plantas tramperas nepentes vistas desde abajo"></div>
+                            <div class="carousel-item" style="background-image: url(../images/plangallery4.webp);" alt="algas macrofitas en la corriente calma de un arroyo cristalino"></div>
+                        </div>
+                        <!-- botones laterales del carousel -->
+                        <button type="button" class="carousel-control-prev" data-bs-target="#carousel-pics" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </button>
+                        <button type="button" class="carousel-control-next" data-bs-target="#carousel-pics" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </button>
+                    </div>
                 </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="../images/plangallery1.jpg" class="d-block w-100" alt="flores blancas con el centro amarillo de un jasmín">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../images/plangallery2.jpg" class="d-block w-100" alt="venus atrapamoscas en vista cercana">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../images/plangallery3.jpg" class="d-block w-100" alt="plantas tramperas nepentes vistas desde abajo">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../images/plangallery4.webp" class="d-block w-100" alt="algas macrofitas en la corriente calma de un arroyo cristalino">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
+            </div>
         </section>
         <section id="resources">
             <h4>Otros sitios que podrían ser de tu interés</h4>
