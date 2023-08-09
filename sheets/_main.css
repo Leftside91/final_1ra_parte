@@ -1,5 +1,20 @@
-/* Boton busqueda */
-.btn-outline-success{
+/* Boton del modal */
+.nav-item span:hover{
+    cursor:pointer;
+}
+
+.modal-title,
+.modal-body{
+    color: #ffffff;
+}
+
+.btn-primary{
+    background-color: rgba(153, 153, 153, 0);
+}
+
+/* Boton busqueda y botón envial del modal*/
+.btn-outline-success,
+.btn-primary{
     --bs-btn-color: #77a807;
     --bs-btn-border-color: #77a807;
     --bs-btn-hover-color: #fff;

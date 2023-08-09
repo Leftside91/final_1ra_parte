@@ -7,14 +7,9 @@
     <meta name="description" content="Tu mente es el límite a lo que la vida puede ser">
     <meta name="keywords" content="animales, zoo, plantas, sci-fi, mitologia, ficcion, recursos literaios">
     <!-- links bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <script defer="" src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
-    <script defer="" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
-        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
-        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script defer="" src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script defer="" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
     <!-- link del css -->
     <link rel="stylesheet" href="../sheets/_form_cards.css">
     <link rel="stylesheet" href="../sheets/_main.css">
@@ -27,11 +22,8 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
             <div class="container-fluid ">
-                <a class="navbar-brand" href="../index.html"><img src="../icons/name_logo-removebg-preview.png"
-                        alt="Mindforming icono" width="264px"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="../index.html"><img src="../icons/name_logo-removebg-preview.png" alt="Mindforming icono" width="264px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -40,10 +32,7 @@
                             <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="./_zoo.html" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Animales
-                            </a>
+                            <a class="nav-link dropdown-toggle" href="./_zoo.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Animales</a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="./_zoo.html#animal-story">Historia</a></li>
                                 <li><a class="dropdown-item" href="./_zoo.html#collection">Galería</a></li>
@@ -55,10 +44,7 @@
                         </li>
                         <li class="nav-item">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="./_plants.html" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Plantas
-                            </a>
+                            <a class="nav-link dropdown-toggle" href="./_plants.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Plantas</a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="./_plants.html#plants-story">Historia</a></li>
                                 <li><a class="dropdown-item" href="./_plants.html#collection">Galería</a></li>
@@ -69,10 +55,7 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="./_myth.html" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Fantasía
-                            </a>
+                            <a class="nav-link dropdown-toggle" href="./_myth.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Fantasía</a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="./_myth.html#myth-story">Historia</a></li>
                                 <li><a class="dropdown-item" href="./_myth.html#collection">Galería</a></li>
@@ -82,7 +65,33 @@
                                 <li><a class="dropdown-item" href="./_myth.html#resources">Recursos</a></li>
                             </ul>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                            <span class="nav-link active" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Contacto</span>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Nueva sugerencia</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <div class="mb-3">
+                                                    <label for="recipient-name" class="col-form-label">Nombre de la criatura:</label>
+                                                    <input type="text" class="form-control" id="recipient-name">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="message-text" class="col-form-label">Principales características</label>
+                                                    <textarea class="form-control" id="message-text"></textarea>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                            <button type="button" class="btn btn-primary">Enviar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
@@ -137,7 +146,7 @@
             <h4>Maravíllate con esta colección</h4>
             <div class="container">
                 <div class="card-body">
-                    <div id="carousel-pics" class="carousel slide" data-bs-ride="carousel">
+                    <div id="carousel-pics" class="carousel slide carousel-fade" data-bs-ride="carousel">
                         <div class="carousel-indicators"> <!-- indicadores de las diapos -->
                             <button type="button" data-bs-target="#carousel-pics" data-bs-slide-to="0" class="active" ></button>
                             <button type="button" data-bs-target="#carousel-pics" data-bs-slide-to="1"></button>
@@ -145,11 +154,10 @@
                             <button type="button" data-bs-target="#carousel-pics" data-bs-slide-to="3"></button>
                         </div>
                         <div class="carousel-inner"> <!-- diapos -->
-                            <div class="carousel-item active" style="background-image: url(../images/animal-carousel1.webp);" alt="guacamayo rojo posado sobre una rama en la selva">
-                            </div>
-                            <div class="carousel-item" style="background-image: url(../images/animal-carousel2.jpg);" alt="lagartija del desierto trepando un arbusto"></div>
-                            <div class="carousel-item" style="background-image: url(../images/animal-carousel3.webp);" alt="leopardo de las nieves observando de frente mientras esta reposando"></div>
-                            <div class="carousel-item" style="background-image: url(../images/animal-carousel4.jpg);" alt="tarántula sobre la arena"></div>
+                            <div class="carousel-item active" data-bs-interval="3000" style="background-image: url(../images/animal-carousel1.webp);" alt="guacamayo rojo posado sobre una rama en la selva"></div>
+                            <div class="carousel-item" data-bs-interval="3000" style="background-image: url(../images/animal-carousel2.jpg);" alt="lagartija del desierto trepando un arbusto"></div>
+                            <div class="carousel-item" data-bs-interval="3000" style="background-image: url(../images/animal-carousel3.webp);" alt="leopardo de las nieves observando de frente mientras esta reposando"></div>
+                            <div class="carousel-item" data-bs-interval="3000" style="background-image: url(../images/animal-carousel4.jpg);" alt="tarántula sobre la arena"></div>
                         </div>
                         <!-- botones laterales del carousel -->
                         <button type="button" class="carousel-control-prev" data-bs-target="#carousel-pics" data-bs-slide="prev">
@@ -166,25 +174,25 @@
             <h4>Otros sitios que podrían ser de tu interés</h4>
             <div class="card">
                 <div class="card-body">
-                  <h5 class="card-title">Museo Argentino de Ciencias Naturales Bernardino Rivadavia</h5>
-                  <p class="card-text">El contenido del sitio es muy amplio, incluyendo no solo las colecciones y los horarios del museo, sino también numerosa información publicada de nivel científico y para divulgación general.</p>
-                  <a href="https://www.macnconicet.gob.ar/" class="btn btn-primary" target="_blank">Visitar el sitio</a>
+                    <h5 class="card-title">Museo Argentino de Ciencias Naturales Bernardino Rivadavia</h5>
+                    <p class="card-text">El contenido del sitio es muy amplio, incluyendo no solo las colecciones y los horarios del museo, sino también numerosa información publicada de nivel científico y para divulgación general.</p>
+                    <a href="https://www.macnconicet.gob.ar/" class="btn btn-primary" target="_blank">Visitar el sitio</a>
                 </div>
-              </div>
-              <div class="card">
+            </div>
+            <div class="card">
                 <div class="card-body">
-                  <h5 class="card-title">El Campito Refugio</h5>
-                  <p class="card-text">Se trata de una ONG, sin fines de lucro cuyo objetivo principal es la concientización de la sociedad sobre el cuidado adecuado y el no abandono de las mascotas,  la esterilización como único medio de control poblacional, la adopción en lugar de la compra de animales y el rechazo a toda forma de sacrificio o eutanasia.</p>
-                  <a href="https://www.elcampitorefugio.org/refugio.php" class="btn btn-primary" target="_blank">Visitar el sitio</a>
+                    <h5 class="card-title">El Campito Refugio</h5>
+                    <p class="card-text">Se trata de una ONG, sin fines de lucro cuyo objetivo principal es la concientización de la sociedad sobre el cuidado adecuado y el no abandono de las mascotas,  la esterilización como único medio de control poblacional, la adopción en lugar de la compra de animales y el rechazo a toda forma de sacrificio o eutanasia.</p>
+                    <a href="https://www.elcampitorefugio.org/refugio.php" class="btn btn-primary" target="_blank">Visitar el sitio</a>
                 </div>
-              </div>
-              <div class="card">
+            </div>
+            <div class="card">
                 <div class="card-body">
-                  <h5 class="card-title">XL Catlin Seaview</h5>
-                  <p class="card-text">El sitio ofrece información sobre los entornos submarinos así como también paseos virtuales.</p>
-                  <a href="https://www.catlinseaviewsurvey.com/" class="btn btn-primary" target="_blank">Visitar el sitio</a>
+                    <h5 class="card-title">XL Catlin Seaview</h5>
+                    <p class="card-text">El sitio ofrece información sobre los entornos submarinos así como también paseos virtuales.</p>
+                    <a href="https://www.catlinseaviewsurvey.com/" class="btn btn-primary" target="_blank">Visitar el sitio</a>
                 </div>
-              </div>
+            </div>
         </section>
     </main>
     <footer>
